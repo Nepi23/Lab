@@ -1,18 +1,18 @@
 #ifndef ACTIVITY_H
 #define ACTIVITY_H
 #include <string>
-
+using namespace std;
 
 class Activity {
 public:
-    Activity();
-    std::string getDesc();
-    std::string getStart();
-    std::string getEnd();
+    Activity(string desc, string start, string end);
+    string getDesc();
+    string getStart();
+    string getEnd();
 private:
-    std::string desc;
-    std::string start;
-    std::string end;
+    string desc;
+    string start;
+    string end;
 };
 
 
