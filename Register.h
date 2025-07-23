@@ -7,7 +7,6 @@
 
 class Register {
 public:
-    Register();
     void addActivity(Activity* activity);
     void removeActivity(Activity* activity);
     void Display();
