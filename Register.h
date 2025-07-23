@@ -12,6 +12,7 @@ public:
     void removeActivity(Activity* activity);
     void Display();
     int getListSize();
+    ~Register();
 private:
     std::list<Activity *> activities;
 };
