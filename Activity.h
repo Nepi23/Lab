@@ -1,16 +1,17 @@
-//
-// Created by admin on 23/07/2025.
-//
-
 #ifndef ACTIVITY_H
 #define ACTIVITY_H
-
+#include <string>
 
 
 class Activity {
+public:
+    Activity();
 
+private:
+    std::string desc;
+    std::string start;
+    std::string end;
 };
 
 
-
-#endif //ACTIVITY_H
+#endif
