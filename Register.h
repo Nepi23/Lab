@@ -11,7 +11,7 @@ public:
     void addActivity(Activity* activity);
     void removeActivity(Activity* activity);
     void Display();
-    void getListSize();
+    int getListSize();
 private:
     std::list<Activity *> activities;
 };
