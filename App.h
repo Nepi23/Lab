@@ -6,11 +6,11 @@
 
 class App : public wxApp {
 public:
-bool OnInit() override;
-private:
-    Register* reg;
-};
+    bool OnInit() override;
 
+private:
+    Register *reg;
+};
 
 
 #endif //APP_H

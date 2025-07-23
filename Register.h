@@ -7,15 +7,19 @@
 
 class Register {
 public:
-    void addActivity(Activity* activity);
-    void removeActivity(Activity* activity);
+    void addActivity(Activity *activity);
+
+    void removeActivity(Activity *activity);
+
     list<Activity *> getActivities();
+
     int getListSize();
+
     ~Register();
+
 private:
     list<Activity *> activities;
 };
-
 
 
 #endif
