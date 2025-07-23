@@ -1,0 +1,6 @@
+# ninja log v6
+54	8088	7748135607544445	lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f2235789002ecb97
+29	24192	7748135607297655	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e35a9a455a5d3bc2
+24198	31107	7748135848985497	lib/libgtest.a	fbee4ea23260150d
+31108	31340	7748135918092991	lib/libgtest_main.a	42c0021ce2860f5f
+31340	36819	7748135920408565	Google_Tests_run.exe	d74ff735c3d36e52
