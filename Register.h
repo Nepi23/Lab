@@ -9,11 +9,11 @@ class Register {
 public:
     void addActivity(Activity* activity);
     void removeActivity(Activity* activity);
-    void Display();
+    list<Activity *> getActivities();
     int getListSize();
     ~Register();
 private:
-    std::list<Activity *> activities;
+    list<Activity *> activities;
 };
 
 

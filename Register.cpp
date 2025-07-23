@@ -18,3 +18,7 @@ void Register::removeActivity(Activity *activity) {
     activities.remove(activity);
 }
 
+list<Activity*> Register::getActivities() {
+    return activities;
+}
+

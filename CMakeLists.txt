@@ -6,12 +6,7 @@ set(SOURCE_FILES Activity.h Activity.cpp Register.h Register.cpp)
 
 add_subdirectory(wxWidgets/wxWidgets)
 
-add_executable(Lab Activity.cpp Activity.h Register.cpp Register.h
-        MainFrame.cpp
-        MainFrame.h
-        App.cpp
-        App.h
-        main.cpp)
+add_executable(Lab Activity.cpp Activity.h Register.cpp Register.h MainFrame.cpp MainFrame.h App.cpp App.h)
 add_executable(Prova MainFrame.cpp MainFrame.h App.cpp App.h)
 add_subdirectory(test)
 add_library(core ${SOURCE_FILES})

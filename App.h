@@ -2,10 +2,13 @@
 #define APP_H
 
 #include<wx/wx.h>
+#include"Register.h"
 
 class App : public wxApp {
 public:
 bool OnInit() override;
+private:
+    Register* reg;
 };
 
 
