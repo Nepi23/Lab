@@ -6,7 +6,9 @@
 class Activity {
 public:
     Activity();
-
+    std::string getDesc();
+    std::string getStart();
+    std::string getEnd();
 private:
     std::string desc;
     std::string start;
