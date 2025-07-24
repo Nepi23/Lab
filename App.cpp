@@ -5,6 +5,7 @@
 wxIMPLEMENT_APP(App);
 
 bool App::OnInit() {
+    reg = new Register;
     reg->addActivity(new Activity("Nuoto", "10:20", "11:20"));
     reg->addActivity(new Activity("Corsa", "14:20", "15:20"));
     reg->addActivity(new Activity("Calcio", "17:20", "19:20"));

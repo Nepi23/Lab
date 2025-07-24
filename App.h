@@ -9,7 +9,7 @@ public:
     bool OnInit() override;
 
 private:
-    Register *reg;
+    Register *reg ;
 };
 
 
